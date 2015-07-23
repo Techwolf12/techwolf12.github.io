@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: #151515 url("../images/bkg.png") 0 0;
-  color: #eaeaea;
+  color: #B5E835;;
   font: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -165,17 +165,18 @@ pre {
 
 table {
   width: 100%;
-  margin: 0 0 20px 0;
+ /* border: 1px solid #B5E835;*/
 }
 
 th {
   text-align: left;
-  border-bottom: 1px dashed #b5e853;
+  border-left: 1px solid #B5E835;
   padding: 5px 10px;
 }
 
 td {
   padding: 5px 10px;
+  border-left: 1px solid #B5E835;
 }
 
 hr {
@@ -244,4 +245,8 @@ a {
 
 .cf {
   zoom:1;
+}
+#email {
+    color: #B5E835;
+    text-decoration: none;
 }
